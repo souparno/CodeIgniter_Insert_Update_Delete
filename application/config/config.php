@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost:1234/php_test/';
+$config['base_url']	= '';
 
 /*
 |--------------------------------------------------------------------------

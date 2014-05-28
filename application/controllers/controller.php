@@ -34,6 +34,10 @@ class Controller extends CI_Controller {
       print_r($this->input->get('id', TRUE));
       $this->index();
   }
+
+  public function hello(){
+    echo "hello there";
+  }
   
   
     

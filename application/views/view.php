@@ -99,7 +99,7 @@ border:1px solid #2a2c2f; -webkit-border-radius: 3px; -moz-border-radius: 3px;bo
 	<h1>CodeIgniter : [Insert , Update , Delete]</h1>
         <?php $this->load->helper('url'); ?>
 	<div id="body">
-         <form method="POST" action="<?php echo base_url()."/".index_page(); ?>/Controller/insert">
+         <form method="POST" action="<?php echo base_url().index_page(); ?>/controller/insert">
             <table>
                 <tr>
                     <td style="width:100px;"><strong>ITEM NAME</strong></td>
